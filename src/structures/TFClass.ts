@@ -22,28 +22,28 @@ export class TFClass {
       if (readable.match(/scout/i)) {
         this.id = 0;
         this.name = 'scout';
-      } if (readable.match(/sol/i)) {
+      } else if (readable.match(/sol/i)) {
         this.id = 1;
         this.name = 'soldier';
-      } if (readable.match(/pyro/i)) {
+      } else if (readable.match(/pyro/i)) {
         this.id = 2;
         this.name = 'pyro';
-      } if (readable.match(/demo/i)) {
+      } else if (readable.match(/demo/i)) {
         this.id = 3;
         this.name = 'demoman';
-      } if (readable.match(/heavy/i)) {
+      } else if (readable.match(/heavy/i)) {
         this.id = 4;
         this.name = 'heavy';
-      } if (readable.match(/eng/i)) {
+      } else if (readable.match(/eng/i)) {
         this.id = 5;
         this.name = 'engineer';
-      } if (readable.match(/med/i)) {
+      } else if (readable.match(/med/i)) {
         this.id = 6;
         this.name = 'medic';
-      } if (readable.match(/sniper/i)) {
+      } else if (readable.match(/sniper/i)) {
         this.id = 7;
         this.name = 'sniper';
-      } if (readable.match(/spy/i)) {
+      } else if (readable.match(/spy/i)) {
         this.id = 8;
         this.name = 'spy';
       } else throw new Error('No class found that matches parameters.');
@@ -51,28 +51,28 @@ export class TFClass {
       if (readable === 0) {
         this.id = 0;
         this.name = 'scout';
-      } if (readable === 1) {
+      } else if (readable === 1) {
         this.id = 1;
         this.name = 'soldier';
-      } if (readable === 2) {
+      } else if (readable === 2) {
         this.id = 2;
         this.name = 'pyro';
-      } if (readable === 3) {
+      } else if (readable === 3) {
         this.id = 3;
         this.name = 'demoman';
-      } if (readable === 4) {
+      } else if (readable === 4) {
         this.id = 4;
         this.name = 'heavy';
-      } if (readable === 5) {
+      } else if (readable === 5) {
         this.id = 5;
         this.name = 'engineer';
-      } if (readable === 6) {
+      } else if (readable === 6) {
         this.id = 6;
         this.name = 'medic';
-      } if (readable === 7) {
+      } else if (readable === 7) {
         this.id = 7;
         this.name = 'sniper';
-      } if (readable === 8) {
+      } else if (readable === 8) {
         this.id = 8;
         this.name = 'spy';
       } else throw new Error('No class found that matches parameters.');
